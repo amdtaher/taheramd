@@ -20,7 +20,7 @@ const Banner = () => {
           <div className="grid grid-cols-12 grid-flow-row flex-col-reverse justify-items-center items-center relative px-5 sm:px-0">
             {/* About Content */}
             <div className="col-span-12 md:col-span-7 flex flex-col gap-6 text-center md:text-left relative max-w-[40rem] capitalize">
-              <span className='text-xl text-subText font-medium relative before:content-[""] before:w-10 before:h-1 before:bg-primary before:absolute before:top-3 before:left-20 md:before:-left-12'>hello, i'm a</span>
+              <span className='text-xl text-subText font-medium relative before:content-[""] before:w-10 before:h-1 before:bg-primary before:absolute before:top-3 before:left-16 md:before:-left-12'>hello, i'm a</span>
               <h2 className='font-bold text-3xl md:text-4xl lg:text-6xl'>Front-End <br /> Web Developer
               <img src={wavingHand} alt="" style={{display: 'inline-block'}} className='w-12 lg:w-[70px] pl-1' />
               </h2>

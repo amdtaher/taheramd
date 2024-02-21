@@ -95,13 +95,13 @@ const About = () => {
                   <span className="text-6xl md:text-7xl lg:text-9xl md:top-[-40px] lg:top-[-66px] stroke">skills</span></h4>
                 </div>
                 {/* Content */}
-                <div className="flex flex-col gap-2.5 text-subText py-5">
-                  <ul className='flex gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
+                <div className="flex flex-col gap-2.5    text-subText py-5">
+                  <ul className='flex items-center text-center gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>html5</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>css3</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>javascript <span className='capitalize'>(core)</span></li>
                   </ul>
-                  <ul className='flex gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
+                  <ul className='flex flex-wrap gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>react</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>tailwind</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>bootstrap</li>
