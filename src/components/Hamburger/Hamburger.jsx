@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { NavLink } from 'react-router-dom';
+import { FaArrowUp } from 'react-icons/fa';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import '../../assets/css/style.css';
 
 const SideBar = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  // Scroll to Top button
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   var styles = {
     bmBurgerButton: {
       position: 'fixed',
@@ -46,23 +65,30 @@ const SideBar = () => {
     },
     bmItem: {
       padding: '13px 10px',
-      borderRadius: '6px',
       color: '#fff',
       transition: '0.3s',
     },
-    bmOverlay: {
-      background: 'rgba(0, 0, 0, 0.3)'
-    }
+    bmItemActive: {
+      color: 'white',
+      backgroundColor: '#000',
+    },
   }
 
   return (
     <>
-      <div className="container p-0">   
-        <Menu styles={ styles } className="text-lg font-semibold">
-          <NavLink to='/' className="hover:bg-primary" activeClassName="active">Home</NavLink>
-          <NavLink to='/projects' className="hover:bg-primary">Projects</NavLink>
-          <NavLink to='/contact' className="hover:bg-primary">Contact</NavLink>
+      <div className='container p-0'>   
+        <Menu styles={styles} className="text-lg font-semibold">
+          <NavLink to='/' className="hover:bg-primary hover:rounded-sm" activeClassName="bmItemActive">Home</NavLink>
+          <NavLink to='/projects' className="hover:bg-primary hover:rounded-sm">Projects</NavLink>
+          <NavLink to='/contact' className="hover:bg-primary hover:rounded-sm">Contact</NavLink>
         </Menu>
+        {/* To The Top Button */}
+        <Link  
+        onClick={scrollToTop}
+        style={{ display: scrollPosition > 500 ? 'block' : 'none', zIndex: 100}}
+        className={`fixed bottom-4 right-4 bg-secondary text-white border-2 border-white rounded-full cursor-pointer p-4`}>
+          <FaArrowUp size={20}/>
+        </Link>
       </div>
     </>
   );

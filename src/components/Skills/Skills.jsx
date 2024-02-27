@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion"
 import html from '../../assets/img/skills/html.png'
 import css from '../../assets/img/skills/css.png'
 import js from '../../assets/img/skills/js.png'
@@ -16,10 +17,25 @@ import win from '../../assets/img/skills/win10.png'
 import ytSeo from '../../assets/img/skills/ytseo.png'
 
 const Skills = () => {
+  // Motion
+  const fade = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: .2,
+        duration: 1
+      },
+    },
+  }
   return (
     <>
       {/* Skills Section */}
-      <div className="container mx-auto py-16 md:py-20">
+      <motion.div
+      variants={fade}
+      animate='hidden'
+      whileInView='visible'
+      className="container mx-auto py-16 md:py-20">
         <div className="grid grid-cols-12 grid-flow-row gap-5">
           {/* Section Title */}
           <div className="col-span-12 uppercase border-b border-grey md:border-none pb-2.5 mb-2.5">
@@ -38,16 +54,16 @@ const Skills = () => {
               <li><img className='w-[64px] md:w-auto mx-auto' src={sass} alt="" /> sass</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={figma} alt="" /> figma</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={canva} alt="" /> canva</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={photoshop} alt="" /> photoshop</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={wordpress} alt="" /> wordpress</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={github} alt="" /> github <br /> (basics)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto' src={photoshop} alt="" /> photoshop (basic)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto' src={wordpress} alt="" /> wordpress (basic)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto' src={github} alt="" /> github (core)</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={msOffice} alt="" /> ms office</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={win} alt="" /> computer <br /> literate</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={ytSeo} alt="" /> youtube <br /> seo</li>
             </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   )
 }

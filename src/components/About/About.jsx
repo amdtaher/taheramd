@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
 import { Link } from 'react-scroll';
 import Skills from '../Skills/Skills';
+import { motion } from "framer-motion"
+import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
 import aboutImage from '../../assets/img/Taher-Ahmed.png';
 import cv from "../../assets/img/Taher-Ahmed.pdf"
 
@@ -27,14 +28,37 @@ const About = () => {
     console.log(to);
   };
 
+  // Motion
+  const fade = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: .2,
+        duration: 1
+      },
+    },
+    visibleDelay: {
+      opacity: 1,
+      transition: {
+        delay: .6,
+        duration: 1
+      },
+    },
+  }
+
   return (
     <>
       {/* About Section */}
-      <section>
-        <div className="container mx-auto py-16 md:pt-20 md:pb-36" id='about'>
+      <motion.section
+      variants={fade}
+      initial='hidden'
+      whileInView='visibleDelay'
+      viewport={{once: true}}>
+        <div className="container mx-auto py-16 md:pb-36" id='about'>
           <div className="grid grid-cols-12 grid-flow-row gap-5 relative px-5 sm:px-0">
             {/* About Image */}
-            <div className="col-span-12 md:col-span-6">
+            <div className="col-span-12 md:col-span-6 flex items-center">
               <img className='w-auto mx-auto bg-subText image-radius' src={aboutImage} alt="picture_of_mine" />
             </div>
             {/* About Content */}
@@ -46,7 +70,11 @@ const About = () => {
               </div>
 
               {/* The About Section */}
-              <section className={activeSection === 'about' ? '' : 'hidden'}>
+              <motion.section
+              variants={fade}
+              initial='hidden'
+              whileInView='visible'
+              className={activeSection === 'about' ? '' : 'hidden'}>
                 {/* Section Title */}
                 <div className="uppercase border-b border-lightDark pb-5 mb-5">
                   <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl mb-2'>taher ahmed tanveer
@@ -85,10 +113,14 @@ const About = () => {
                     download CV <FaDownload className='group-hover:translate-y-1 duration-300 inline-block ml-1.5' />
                   </a>
                 </div>
-              </section>
+              </motion.section>
               
               {/* The Skills Section */}
-              <section className= {activeSection === 'skills' ? '' : 'hidden'}>
+              <motion.section 
+              variants={fade}
+              initial='hidden'
+              whileInView='visible'
+              className= {activeSection === 'skills' ? '' : 'hidden'}>
                 {/* Section Title */}
                 <div className="uppercase border-b border-lightDark pb-5 mb-5">
                   <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl mb-2'>what i learned
@@ -99,18 +131,18 @@ const About = () => {
                   <ul className='flex items-center text-center gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>html5</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>css3</li>
-                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>javascript <span className='capitalize'>(core)</span></li>
+                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>js <span className='capitalize'>(core)</span></li>
                   </ul>
-                  <ul className='flex flex-wrap gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
+                  <ul className='flex flex-wrap items-center text-center gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>react</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>tailwind</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>bootstrap</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>sass</li>
                   </ul>
-                  <ul className='flex gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
+                  <ul className='flex items-center text-center gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>github</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>figma</li>
-                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>wordpress</li>
+                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>wp (core)</li>
                   </ul>
                 </div>
                 {/* About Buttons */}
@@ -120,7 +152,7 @@ const About = () => {
                       {showMore ? <FaCaretUp size={20} className='ml-1' /> : <FaCaretDown size={20} className='ml-1' />}
                   </button>  
                 </div>
-              </section>
+              </motion.section>
             </div>
             {/* Skills Component */}
             {showMore && (
@@ -130,7 +162,7 @@ const About = () => {
             )}
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

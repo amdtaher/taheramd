@@ -5,6 +5,7 @@
 
 :root{
   --primary: #ff9e0d;
+  --primary-light: #f8b243;
   --secondary: #000;
   --dark: #2a2a2a;
   --sub-text: #767676;
@@ -27,7 +28,7 @@ html{
   left: 0;
   right: 0;
   color: var(--secondary);
-  background-color: var(--dim-light);
+  background-color: var(--light);
   padding-block: 10px;
   padding-inline: 205px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);

@@ -13,9 +13,7 @@ const NavBar = () => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
     };
-
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -39,7 +37,7 @@ const NavBar = () => {
           </div>
           {/* Navigation Bar */}
           <div className="col-span-12 md:col-span-8 text-left text-lg font-semibold flex flex-row justify-end items-center gap-5 capitalize relative">
-            <NavLink to='/projects' className="relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100">my projects</NavLink>
+            <NavLink to='/projects' className="relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100" activeClassName="activeBurger">my projects</NavLink>
             <NavLink to='/contact' className="relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100">contact</NavLink>
             <a className="btn !py-1.5 relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100" download='Taher_Ahmed' href={cv}>cV</a>
           </div>
@@ -48,7 +46,7 @@ const NavBar = () => {
           <Link  
             onClick={scrollToTop}
             style={{ display: scrollPosition > 500 ? 'block' : 'none'}}
-            className={`fixed bottom-0 right-0 bg-secondary text-white border-2 border-white rounded-full cursor-pointer p-4 m-4`}>
+            className={`fixed bottom-4 right-4 bg-secondary text-white border-2 border-white rounded-full cursor-pointer p-4`}>
             <FaArrowUp size={20}/>
           </Link>
         </div>

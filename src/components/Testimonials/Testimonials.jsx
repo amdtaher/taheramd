@@ -1,12 +1,47 @@
 import React from 'react'
+import { FaQuoteRight } from 'react-icons/fa';
+import { motion } from "framer-motion"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import person1 from '../../assets/img/testimonials/person1.jpg'
-import { FaQuoteRight } from 'react-icons/fa';
 import reviewImg from '../../assets/img/testimonial0.png'
 
 const Testimonials = () => {
+  // Motion
+  const fade = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: .5,
+        duration: 1
+      },
+    },
+  }
+  const child = {
+    hidden: { y: -50, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        delay: .6,
+        duration: 1
+      },
+    },
+  }
+  const child2 = {
+    hidden: { y: 50, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        delay: .6,
+        duration: 1
+      },
+    },
+  }
+
   const settings = {
     dots: true,
     infinite: true,
@@ -19,7 +54,11 @@ const Testimonials = () => {
   return (
     <>
       {/* Testimonial Section */}
-      <section>
+      <motion.section
+      variants={fade}
+      initial='hidden'
+      whileInView='visible'
+      viewport={{once: true}}>
         <div className="container mx-auto py-16 md:py-20" id='testimonial'>
           <div className="grid grid-cols-12 grid-flow-row gap-5 px-5 sm:px-0">
             {/* Section Title */}
@@ -27,13 +66,25 @@ const Testimonials = () => {
               <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl mb-2'>what clients say
               <span className="text-6xl md:text-7xl lg:text-9xl md:top-[-40px] lg:top-[-66px] stroke">feedbacks</span></h4>
             </div>
-            {/* Testimonials */}
+            {/* Testimonials Content */}
             <div className="col-span-12 overflow-hidden">
               <div className="grid grid-cols-12 grid-flow-row gap-5 py-5 items-center">
-                <div className="hidden col-span-12 lg:block lg:col-span-5">
+                {/* Testimonial Banner Image */}
+                <motion.div
+                variants={child2}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{once: true}}
+                className="hidden col-span-12 lg:block lg:col-span-5">
                   <img src={reviewImg} alt="" />
-                </div>
-                <div className="col-span-12 lg:col-span-7 gap-5 text-center capitalize">
+                </motion.div>
+                {/* Testimonial */}
+                <motion.div
+                variants={child}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{once: true}}
+                className="col-span-12 lg:col-span-7 gap-5 text-center capitalize">
                   <Slider {...settings}>
                     {/* Single Testimonial */}
                     <div className="rounded-lg mx-auto py-12 px-10">
@@ -63,12 +114,12 @@ const Testimonials = () => {
                         </div> 
                     </div>
                   </Slider>
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   )
 }

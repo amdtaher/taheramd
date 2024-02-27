@@ -21,7 +21,7 @@ const NavigationBar = () => {
 
   return (
     <>
-      {isSmallScreen ? <Hamburger /> : <NavBar />}
+      {isSmallScreen ? <Hamburger /> : <NavBar/>}
     </>
   );
 };
