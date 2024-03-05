@@ -81,8 +81,8 @@ const Services = () => {
                 className="col-span-12 md:col-span-4 capitalize">
                   <img className='w-1/3 md:w-2/4 m-auto' src={serviceGif3} alt="service-image"/>
                   <div className="text-center">
-                    <h4 className='text-lg lg:text-xl font-semibold lg:font-bold tracking-wide'>Web Hosting</h4>
-                    <p className='text-sm lg:text-base text-center text-subText mt-2.5'>I also provide hosting services, bringing your online vision to life and ensuring its smooth operation....</p>
+                    <h4 className='text-lg lg:text-xl font-semibold lg:font-bold tracking-wide'>Figma/PSD to HTML</h4>
+                    <p className='text-sm lg:text-base text-center text-subText mt-2.5'>Figma to HTML and PSD to HTML conversion services, providing detailed and precise coding for your design files....</p>
                   </div>
                 </motion.div>
               </div>
