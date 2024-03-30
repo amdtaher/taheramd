@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import Skills from '../Skills/Skills';
 import { motion } from "framer-motion"
 import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
-import aboutImage from '../../assets/img/Taher_Ahmed.png';
+import aboutImage from '../../assets/img/Taher_Ahmed.jpg';
 import cv from "../../assets/img/Taher-Ahmed.pdf"
 
 const About = () => {
