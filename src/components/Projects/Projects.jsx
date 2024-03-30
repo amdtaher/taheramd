@@ -3,13 +3,9 @@ import { NavLink } from 'react-router-dom';
 import { FaGithub, FaLink, FaCode  } from "react-icons/fa";
 import { motion } from "framer-motion"
 import projectImg1 from '../../assets/img/projects/project1.jpg'
-import projectImg2 from '../../assets/img/projects/project3.jpg'
-import projectImg3 from '../../assets/img/projects/project4.jpg'
-import projectImg4 from '../../assets/img/projects/project1.jpg'
-import projectImg5 from '../../assets/img/projects/project3.jpg'
-import projectImg6 from '../../assets/img/projects/project4.jpg'
-import projectImg7 from '../../assets/img/projects/project1.jpg'
-import projectImg8 from '../../assets/img/projects/project3.jpg'
+import projectImg2 from '../../assets/img/projects/project2.jpg'
+import projectImg3 from '../../assets/img/projects/project3.jpg'
+import projectImg4 from '../../assets/img/projects/project2.jpg'
 
 const Projects = () => {
   // Motion

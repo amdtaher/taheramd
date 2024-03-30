@@ -32,7 +32,7 @@ const Banner = () => {
       initial='hidden'
       whileInView='visible'
       viewport={{once: true}}
-      className="h-screen flex items-center -mt-20">
+      className="h-dvh flex items-center -mt-20">
         <div className="container mx-auto">
           <div className="grid grid-cols-12 grid-flow-row flex-col-reverse justify-items-center items-center relative px-5 sm:px-0">
             {/* About Content */}
@@ -46,7 +46,7 @@ const Banner = () => {
               </p>
             </div>
             {/* About Image */}
-            <div className="col-span-12 md:col-span-5 max-w-[300px] lg:max-w-[350px] mx-auto order-first md:order-none mb-10 md:mb-0">
+            <div className="col-span-12 md:col-span-5 max-w-[300px] lg:max-w-[360px] mx-auto order-first md:order-none mb-10 md:mb-0">
             <img className='hidden md:block w-auto mx-auto bg-subText image-radius animate-wiggle' src={img} alt="picture_of_mine" />
             </div>
             {/* Down to Services Button */}

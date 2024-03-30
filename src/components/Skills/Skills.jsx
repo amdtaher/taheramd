@@ -15,6 +15,7 @@ import github from '../../assets/img/skills/github.png'
 import msOffice from '../../assets/img/skills/office.png'
 import win from '../../assets/img/skills/win10.png'
 import ytSeo from '../../assets/img/skills/ytseo.png'
+import git from '../../assets/img/skills/git.png'
 
 const Skills = () => {
   // Motion
@@ -47,18 +48,18 @@ const Skills = () => {
             <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 grid-flow-row gap-5 text-center uppercase font-semibold">
               <li><img className='w-[64px] md:w-auto mx-auto' src={html} alt="" /> html5</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={css} alt="" /> css3</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={js} alt="" /> js <br /> (essentials)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto' src={js} alt="" /> js6 <br /> (fundemental)</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={tailwind} alt="" /> tailwind</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={react} alt="" /> react</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={bootstrap} alt="" /> bootstrap</li>
+              <li><img className='w-[64px] md:w-auto mx-auto' src={bootstrap} alt="" /> bootstrap5</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={sass} alt="" /> sass</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={figma} alt="" /> figma</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={canva} alt="" /> canva</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={photoshop} alt="" /> photoshop (basic)</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={wordpress} alt="" /> wordpress (basic)</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={github} alt="" /> github (core)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto' src={git} alt="" /> git (basic)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto' src={github} alt="" /> github</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={msOffice} alt="" /> ms office</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={win} alt="" /> computer <br /> literate</li>
               <li><img className='w-[64px] md:w-auto mx-auto' src={ytSeo} alt="" /> youtube <br /> seo</li>
             </ul>
           </div>

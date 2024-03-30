@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import person1 from '../../assets/img/testimonials/person1.jpg'
-import reviewImg from '../../assets/img/testimonial0.png'
+import reviewImg from '../../assets/img/testimonials/testimonial0.png'
 
 const Testimonials = () => {
   // Motion

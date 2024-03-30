@@ -59,7 +59,7 @@ const About = () => {
           <div className="grid grid-cols-12 grid-flow-row gap-5 relative px-5 sm:px-0">
             {/* About Image */}
             <div className="col-span-12 md:col-span-6 flex items-center">
-              <img className='w-auto mx-auto bg-subText image-radius' src={aboutImage} alt="picture_of_mine" />
+              <img className='w-auto lg:w-[600px] mx-auto bg-subText image-radius md:rounded-xl' src={aboutImage} alt="picture_of_mine" />
             </div>
             {/* About Content */}
             <div className="col-span-12 md:col-span-6 flex flex-col justify-start">
@@ -140,7 +140,7 @@ const About = () => {
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>sass</li>
                   </ul>
                   <ul className='flex items-center text-center gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
-                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>github</li>
+                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>git / github</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>figma</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>wp (core)</li>
                   </ul>
