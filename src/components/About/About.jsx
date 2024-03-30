@@ -107,7 +107,7 @@ const About = () => {
                   duration={1000} 
                   onSetActive={handleSetActive}
                   className='btn group cursor-pointer'>
-                    contact me <FaPaperPlane className='group-hover:translate-x-1 group-hover:-translate-y-1 duration-300 inline-block ml-1.5' />
+                    hire me <FaPaperPlane className='group-hover:translate-x-1 group-hover:-translate-y-1 duration-300 inline-block ml-1.5' />
                   </Link>
                   <a download='Taher_Ahmed' href={cv} className="btn group">
                     download CV <FaDownload className='group-hover:translate-y-1 duration-300 inline-block ml-1.5' />
