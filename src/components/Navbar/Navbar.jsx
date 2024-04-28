@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 import { Link, animateScroll as scroll } from 'react-scroll';
 import '../../assets/css/style.css';
 import logo from '../../assets/img/logo.png';
-import cv from '../../assets/img/Taher-Ahmed.pdf';
+import cv from '../../assets/img/Taher_Ahmed.pdf';
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
