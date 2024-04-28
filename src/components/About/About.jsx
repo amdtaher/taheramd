@@ -4,7 +4,7 @@ import Skills from '../Skills/Skills';
 import { motion } from "framer-motion"
 import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
 import aboutImage from '../../assets/img/Taher_Ahmed.jpg';
-import cv from "../../assets/img/Taher-Ahmed.pdf"
+import cv from "../../assets/img/Taher_Ahmed.pdf"
 
 const About = () => {
   const [activeSection, setActiveSection] = useState('about');
