@@ -139,9 +139,10 @@ const About = () => {
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>sass</li>
                   </ul>
                   <ul className='flex items-center text-center gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
-                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>git / github</li>
+                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>git</li>
+                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>github</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>figma</li>
-                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>wp (core)</li>
+                    <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>wp(core)</li>
                   </ul>
                 </div>
                 {/* About Buttons */}
