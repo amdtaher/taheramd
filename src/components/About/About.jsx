@@ -4,11 +4,8 @@ import Skills from '../Skills/Skills';
 import { motion } from "framer-motion"
 import { NavLink } from 'react-router-dom';
 import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
-import aboutImage1 from '../../assets/img/avatar/Taher-img1.webp';
-import aboutImage2 from '../../assets/img/avatar/Taher-img2.webp';
-import aboutImage3 from '../../assets/img/avatar/Taher-img3.webp';
-import aboutImage4 from '../../assets/img/avatar/Taher-img4.webp';
-import resume from "../../assets/img/Taher-Ahmed.pdf"
+import aboutImage from '../../assets/img/Taher_Ahmed.jpg';
+import cv from "../../assets/img/Taher-Ahmed.pdf"
 
 const About = () => {
   const [activeSection, setActiveSection] = useState('about');
