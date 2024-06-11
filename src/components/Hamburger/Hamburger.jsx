@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { FaArrowUp } from 'react-icons/fa';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import '../../assets/css/style.css';
+import resume from "../../assets/img/Taher-Ahmed.pdf"
 
 const SideBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -81,6 +82,7 @@ const SideBar = () => {
           <NavLink to='/' className="hover:bg-primary hover:rounded-sm" activeClassName="bmItemActive">Home</NavLink>
           <NavLink to='/projects' className="hover:bg-primary hover:rounded-sm">Projects</NavLink>
           <NavLink to='/contact' className="hover:bg-primary hover:rounded-sm">Contact</NavLink>
+          <a className="btn !py-3 capitalize cursor-pointer hover:bg-primary" download='Taher_Ahmed' href={resume}>resume</a>
         </Menu>
         {/* To The Top Button */}
         <Link  

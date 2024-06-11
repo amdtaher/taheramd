@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
 import { FaGithub, FaLink } from "react-icons/fa";
 import { motion } from 'framer-motion';
-import projectImg1 from '../../assets/img/projects/project1.jpg'
-import projectImg2 from '../../assets/img/projects/project3.jpg'
-import projectImg3 from '../../assets/img/projects/project2.jpg'
-import projectImg4 from '../../assets/img/projects/project1.jpg'
-import projectImg5 from '../../assets/img/projects/project3.jpg'
-import projectImg6 from '../../assets/img/projects/project2.jpg'
-import projectImg7 from '../../assets/img/projects/project1.jpg'
-import projectImg8 from '../../assets/img/projects/project3.jpg'
-import projectImg9 from '../../assets/img/projects/project1.jpg'
-import projectImg10 from '../../assets/img/projects/project2.jpg'
+import projectImg1 from '../../assets/img/projects/fruitcart.webp'
+import projectImg2 from '../../assets/img/projects/microsoft-clone.webp'
+import projectImg3 from '../../assets/img/projects/evnia.webp'
+import projectImg4 from '../../assets/img/projects/portfolio.webp'
+import projectImg5 from '../../assets/img/projects/cuisine.webp'
+import projectImg6 from '../../assets/img/projects/servicers.webp'
+import projectImg7 from '../../assets/img/projects/old-portfolio.webp'
+import projectImg8 from '../../assets/img/projects/foodx.webp'
+import projectImg9 from '../../assets/img/projects/cakezone.webp'
+import projectImg10 from '../../assets/img/projects/halim.webp'
+import projectImg11 from '../../assets/img/projects/chips.webp'
 
 const AllProjects = () => {
   const [active, setactive] = useState('catagory1');
@@ -88,6 +89,20 @@ const AllProjects = () => {
                   </div>
                 </div>
               </li>
+              {/* Single Project */}
+              <li class="group relative overflow-hidden">
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg11} alt="my-work"/>
+                <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-lightDark text-white py-0.5 px-4'>Tailwind</span>
+                {/* Project Content */}
+                <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-lightDark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
+                  <h4 className='text-xl'>chips</h4>
+                  {/* Project Links */}
+                  <div className="flex justify-center gap-5 mt-2.5">
+                    <a href="https://chips-tailwind.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/chips-tailwind" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                  </div>
+                </div>
+              </li>
               {/*Single Project */}
               <li class="group relative overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg3} alt="my-work"/>
@@ -150,7 +165,7 @@ const AllProjects = () => {
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
                 <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
-                  <h4 className='text-xl'>core portfolio</h4>
+                  <h4 className='text-xl'>old portfolio</h4>
                   {/* Project Links */}
                   <div className="flex justify-center gap-5 mt-2.5">
                     <a href="https://portfolio-site-ft.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
@@ -250,15 +265,15 @@ const AllProjects = () => {
             className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row gap-5 text-center uppercase font-semibold'>
               {/* Single Project */}
               <li class="group relative overflow-hidden">
-                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg2} alt="my-work"/>
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg11} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
                 {/* Project Content */}
                 <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 z-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1]">
-                  <h4 className='text-xl'>microsoft clone</h4>
+                  <h4 className='text-xl'>chips</h4>
                   {/* Project Links */}
                   <div className="flex justify-center gap-5 mt-2.5">
-                    <a href="https://microsoft-tailwind.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
-                    <a href="https://github.com/amdtaher/microsoft-clone-tailwind" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                    <a href="https://chips-tailwind.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/chips-tailwind" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
                   </div>
                 </div>
               </li>

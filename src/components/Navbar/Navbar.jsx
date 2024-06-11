@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 import { FaArrowUp } from "react-icons/fa";
 import { Link, animateScroll as scroll } from 'react-scroll';
 import '../../assets/css/style.css';
-import logo from '../../assets/img/logo.png';
-import cv from '../../assets/img/Taher-Ahmed.pdf';
+import logo from '../../assets/img/logo/logo.webp';
+import resume from '../../assets/img/Taher-Ahmed.pdf';
 
 const NavBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -39,7 +39,7 @@ const NavBar = () => {
           <div className="col-span-12 md:col-span-8 text-left text-lg font-semibold flex flex-row justify-end items-center gap-5 capitalize relative">
             <NavLink to='/projects' className="relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100" activeClassName="activeBurger">my projects</NavLink>
             <NavLink to='/contact' className="relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100">contact</NavLink>
-            <a className="btn !py-1.5 relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100" download='Taher_Ahmed' href={cv}>cV</a>
+            <a className="btn !py-1.5 relative cursor-pointer before:content-[''] before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-primary before:scale-0 before:duration-300 hover:before:scale-100" download='Taher_Ahmed' href={resume}>resume</a>
           </div>
 
           {/* To The Top Button */}

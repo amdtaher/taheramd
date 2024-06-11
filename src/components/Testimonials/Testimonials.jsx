@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 import { FaQuoteRight } from 'react-icons/fa';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import person1 from '../../assets/img/testimonials/person1.jpg'
-import reviewImg from '../../assets/img/testimonials/testimonial0.png'
+import person1 from '../../assets/img/testimonials/faisal-bai.webp';
+import person2 from '../../assets/img/testimonials/nahian-bai.webp';
+import person3 from '../../assets/img/testimonials/opi-bai.webp';
+import reviewImg from '../../assets/img/testimonials/testimonial-img.webp';
 
 const Testimonials = () => {
   // Motion
@@ -92,7 +94,7 @@ const Testimonials = () => {
                       <p className='text-sm lg:text-base text-subText font-normal text-center italic px-5 md:px-10'>Awesome template, well written code and looks great on any platform. The customer support is very helpful and as huge asset to this template. Overall a good design, that I am quite happy with.</p>
                       <div className="flex justify-center items-center gap-5 mt-5">
                           <img className='w-[60px] rounded-full' src={person1} alt="person"/>
-                          <h4 className='text-base font-medium'>Gwen Stacy<span className='block'>UI/UX Designer</span></h4>
+                          <h4 className='text-base font-medium'>Faisal Mohammed<span className='block'>Mentor / React Developer</span></h4>
                       </div> 
                     </div>
                     {/* Single Testimonial */}
@@ -100,8 +102,8 @@ const Testimonials = () => {
                       <FaQuoteRight className='mx-auto mb-5' size={30}/>
                       <p className='text-sm text-subText font-normal text-center italic'>Awesome template, well written code and looks great on any platform. The customer support is very helpful and as huge asset to this template. Overall a good design, that I am quite happy with.</p>
                         <div className="flex justify-center items-center gap-5 mt-5">
-                            <img className='w-[60px] rounded-full' src={person1} alt="person"/>
-                            <h4 className='text-base font-medium'>Gwen Stacy<span className='block'>UI/UX Designer</span></h4>
+                            <img className='w-[60px] rounded-full' src={person2} alt="person"/>
+                            <h4 className='text-base font-medium'>Abdullah Nahian<span className='block'>Mentor / Frontend Developer</span></h4>
                         </div> 
                     </div>
                     {/* Single Testimonial */}
@@ -109,8 +111,8 @@ const Testimonials = () => {
                       <FaQuoteRight className='mx-auto mb-5' size={30}/>
                       <p className='text-sm text-subText font-normal text-center italic'>Awesome template, well written code and looks great on any platform. The customer support is very helpful and as huge asset to this template. Overall a good design, that I am quite happy with.</p>
                         <div className="flex justify-center items-center gap-5 mt-5">
-                            <img className='w-[60px] rounded-full' src={person1} alt="person"/>
-                            <h4 className='text-base font-medium'>Gwen Stacy<span className='block'>UI/UX Designer</span></h4>
+                            <img className='w-[60px] rounded-full' src={person3} alt="person"/>
+                            <h4 className='text-base font-medium'>Ashraful Opi<span className='block'>Wordpress Developer</span></h4>
                         </div> 
                     </div>
                   </Slider>

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaGithub, FaLink, FaCode  } from "react-icons/fa";
 import { motion } from "framer-motion"
-import projectImg1 from '../../assets/img/projects/project1.jpg'
-import projectImg2 from '../../assets/img/projects/project2.jpg'
-import projectImg3 from '../../assets/img/projects/project3.jpg'
-import projectImg4 from '../../assets/img/projects/project2.jpg'
+import projectImg1 from '../../assets/img/projects/fruitcart.webp'
+import projectImg2 from '../../assets/img/projects/microsoft-clone.webp'
+import projectImg3 from '../../assets/img/projects/chips.webp'
+import projectImg4 from '../../assets/img/projects/portfolio.webp'
 
 const Projects = () => {
   // Motion
@@ -105,14 +105,14 @@ const Projects = () => {
                 viewport={{once: true}}
                 className="group relative overflow-hidden">
                   <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg3} alt="my-work"/>
-                  <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-lightDark text-white py-0.5 px-4'>react</span>
+                  <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-lightDark text-white py-0.5 px-4'>Tailwind</span>
                   {/* Project Content */}
                   <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-lightDark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
-                    <h4 className='text-xl'>evnia</h4>
+                    <h4 className='text-xl'>chips</h4>
                     {/* Project Links */}
                     <div className="flex justify-center gap-5 mt-2.5">
-                      <a href="https://evnia-react.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
-                      <a href="https://github.com/amdtaher/evnia-react" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                      <a href="https://chips-tailwind.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                      <a href="https://github.com/amdtaher/chips-tailwind" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
                     </div>
                   </div>
                 </motion.div>

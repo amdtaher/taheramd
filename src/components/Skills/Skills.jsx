@@ -1,21 +1,22 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import html from '../../assets/img/skills/html.png'
-import css from '../../assets/img/skills/css.png'
-import js from '../../assets/img/skills/js.png'
-import bootstrap from '../../assets/img/skills/bootstrap.png'
-import tailwind from '../../assets/img/skills/tailwind.png'
-import sass from '../../assets/img/skills/sass.png'
-import react from '../../assets/img/skills/react.png'
-import figma from '../../assets/img/skills/figma.png'
-import canva from '../../assets/img/skills/canva.png'
-import photoshop from '../../assets/img/skills/photoshop.png'
-import wordpress from '../../assets/img/skills/wordpress.png'
-import github from '../../assets/img/skills/github.png'
-import msOffice from '../../assets/img/skills/office.png'
-import win from '../../assets/img/skills/win10.png'
-import ytSeo from '../../assets/img/skills/ytseo.png'
-import git from '../../assets/img/skills/git.png'
+import html from '../../assets/img/skills/html.webp'
+import css from '../../assets/img/skills/css.webp'
+import js from '../../assets/img/skills/js.webp'
+import bootstrap from '../../assets/img/skills/bootstrap.webp'
+import tailwind from '../../assets/img/skills/tailwind.webp'
+import sass from '../../assets/img/skills/sass.webp'
+import react from '../../assets/img/skills/react.webp'
+import figma from '../../assets/img/skills/figma.webp'
+import canva from '../../assets/img/skills/canva.webp'
+import photoshop from '../../assets/img/skills/photoshop.webp'
+import wordpress from '../../assets/img/skills/wordpress.webp'
+import github from '../../assets/img/skills/github.webp'
+import msOffice from '../../assets/img/skills/office.webp'
+import win from '../../assets/img/skills/win10.webp'
+import ytSeo from '../../assets/img/skills/ytseo.webp'
+import git from '../../assets/img/skills/git.webp'
+import gsap from '../../assets/img/skills/gsap.webp'
 
 const Skills = () => {
   // Motion
@@ -46,21 +47,23 @@ const Skills = () => {
           {/* Skills */}
           <div className="col-span-12">
             <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 grid-flow-row gap-5 text-center uppercase font-semibold">
-              <li><img className='w-[64px] md:w-auto mx-auto' src={html} alt="" /> html5</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={css} alt="" /> css3</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={js} alt="" /> js6 <br /> (fundemental)</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={tailwind} alt="" /> tailwind</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={react} alt="" /> react</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={bootstrap} alt="" /> bootstrap5</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={sass} alt="" /> sass</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={figma} alt="" /> figma</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={canva} alt="" /> canva</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={photoshop} alt="" /> photoshop (basic)</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={wordpress} alt="" /> wordpress (basic)</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={git} alt="" /> git (basic)</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={github} alt="" /> github</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={msOffice} alt="" /> ms office</li>
-              <li><img className='w-[64px] md:w-auto mx-auto' src={ytSeo} alt="" /> youtube <br /> seo</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={html} alt="" /> html5</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={css} alt="" /> css3</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={js} alt="" /> js6 <br /> (fundemental)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={tailwind} alt="" /> tailwind</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={react} alt="" /> react</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={bootstrap} alt="" /> bootstrap5</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={sass} alt="" /> sass</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={gsap} alt="" /> gsap </li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={figma} alt="" /> figma</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={canva} alt="" /> canva</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={photoshop} alt="" /> photoshop (basic)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={wordpress} alt="" /> wordpress (basic)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={git} alt="" /> git (basic)</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={github} alt="" /> github</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={msOffice} alt="" /> ms office</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={ytSeo} alt="" /> youtube <br /> seo</li>
+              <li><img className='w-[64px] md:w-auto mx-auto duration-300 cursor-pointer hover:-translate-y-2.5' src={win} alt="" /> win 10</li>
             </ul>
           </div>
         </div>

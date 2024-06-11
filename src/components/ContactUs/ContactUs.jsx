@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import contactImg1 from '../../assets/img/contact/contactImg.svg'
-import contactImg2 from '../../assets/img/contact/contactImg0.png'
+import contactImg1 from '../../assets/img/contact/contactImg1.webp'
+import contactImg2 from '../../assets/img/contact/contactImg2.webp'
 
 const ContactUs = () => {
   // Motion
@@ -48,22 +48,21 @@ const ContactUs = () => {
           {/* Contact Form */}
           <div className="grid grid-cols-12 grid-flow-row gap-5 mt-10 px-5 sm:px-0">
             {/* Section Title */}
-            <div className="col-span-12 uppercase pb-2.5 mb-2.5">
-              <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl mb-2'>massage me (not working yet)</h4>
+            <div className="col-span-12 uppercase">
+              <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl'>massage me</h4>
             </div>
             {/* Contact Us */}
             <div className="col-span-12 capitalize">
               <div className="grid grid-cols-12 grid-flow-row gap-5 md:gap-10">
                 {/* Contact Left */}
                 <div className="col-span-12 md:col-span-7 lg:col-span-6 flex flex-col justify-center">
-                  <div className="flex flex-col gap-5">
-                    <p className='text-base text-subText'>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
-                    <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="text" name="text" placeholder="Name"/>
-                    <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="email" name="email" placeholder="Email"/>
-                    <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="tel" name="number" placeholder="Mobile Number"/>
-                    <textarea className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' name="massage" placeholder="Massage"></textarea>
+                  <form action='https://formspree.io/f/mpzvvdzq' method='POST' className="flex flex-col gap-5">
+                    <p className='text-base text-subText lg:pr-[6.5rem]'>Please fill out the form in this section to contact me, or reach out to me on any social media platform.</p>
+                    <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="text" name="name" placeholder="Name" autoComplete='off' required/>
+                    <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="email" name="email" placeholder="Email" autoComplete='off' required/>
+                    <textarea rows={5} className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' name="massage" placeholder="Massage" autoComplete='off' required></textarea>
                     <input className='btn cursor-pointer' type="submit" value="Send Massage" id="send"/>
-                  </div>
+                  </form>
                 </div>
                 {/* Contact Right */}
                 <div className="col-span-12 md:col-span-5 lg:col-span-6  mx-auto hidden md:block">
