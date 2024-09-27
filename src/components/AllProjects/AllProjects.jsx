@@ -12,6 +12,8 @@ import projectImg8 from '../../assets/img/projects/foodx.webp'
 import projectImg9 from '../../assets/img/projects/cakezone.webp'
 import projectImg10 from '../../assets/img/projects/halim.webp'
 import projectImg11 from '../../assets/img/projects/chips.webp'
+import projectImg12 from '../../assets/img/projects/tracksite.webp'
+import projectImg13 from '../../assets/img/projects/getpay.webp'
 
 const AllProjects = () => {
   const [active, setactive] = useState('catagory1');
@@ -212,6 +214,34 @@ const AllProjects = () => {
                   <div className="flex justify-center gap-5 mt-2.5">
                     <a href="https://halim-ft-f2html.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
                     <a href="https://github.com/amdtaher/Halim-Float-Figma" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                  </div>
+                </div>
+              </li>
+              {/* Single Project */}
+              <li class="group relative overflow-hidden">
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg12} alt="my-work"/>
+                <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
+                {/* Project Content */}
+                <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
+                  <h4 className='text-xl'>tracksite</h4>
+                  {/* Project Links */}
+                  <div className="flex justify-center gap-5 mt-2.5">
+                    <a href="https://tracksite-row.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/Tracksite-row" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                  </div>
+                </div>
+              </li>
+              {/* Single Project */}
+              <li class="group relative overflow-hidden">
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
+                {/* Project Content */}
+                <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
+                  <h4 className='text-xl'>getpay</h4>
+                  {/* Project Links */}
+                  <div className="flex justify-center gap-5 mt-2.5">
+                    <a href="https://getpay-raw.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/getPay" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
                   </div>
                 </div>
               </li>
