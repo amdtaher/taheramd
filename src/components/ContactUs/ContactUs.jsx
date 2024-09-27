@@ -49,7 +49,7 @@ const ContactUs = () => {
           <div className="grid grid-cols-12 grid-flow-row gap-5 mt-10 px-5 sm:px-0">
             {/* Section Title */}
             <div className="col-span-12 uppercase">
-              <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl'>massage me</h4>
+              <h4 className='relative font-black text-3xl md:text-4xl lg:text-5xl'>massage me (Working)</h4>
             </div>
             {/* Contact Us */}
             <div className="col-span-12 capitalize">
@@ -60,6 +60,7 @@ const ContactUs = () => {
                     <p className='text-base text-subText lg:pr-[6.5rem]'>Please fill out the form in this section to contact me, or reach out to me on any social media platform.</p>
                     <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="text" name="name" placeholder="Name" autoComplete='off' required/>
                     <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="email" name="email" placeholder="Email" autoComplete='off' required/>
+                    <input className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' type="number" name="number" placeholder="Mobile Number" autoComplete='off' required/>
                     <textarea rows={5} className='border border-grey font-medium italic rounded-md py-2.5 pl-2.5' name="massage" placeholder="Massage" autoComplete='off' required></textarea>
                     <input className='btn cursor-pointer' type="submit" value="Send Massage" id="send"/>
                   </form>
