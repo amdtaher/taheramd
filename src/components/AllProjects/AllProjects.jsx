@@ -245,6 +245,34 @@ const AllProjects = () => {
                   </div>
                 </div>
               </li>
+              {/* Single Project */}
+              <li class="group relative overflow-hidden">
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
+                {/* Project Content */}
+                <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
+                  <h4 className='text-xl'>e-commerce card</h4>
+                  {/* Project Links */}
+                  <div className="flex justify-center gap-5 mt-2.5">
+                    <a href="https://fmentor-ecommerce-card.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/fMentor-Ecommerce-Card" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                  </div>
+                </div>
+              </li>
+              {/* Single Project */}
+              <li class="group relative overflow-hidden">
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
+                {/* Project Content */}
+                <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
+                  <h4 className='text-xl'>brave ai</h4>
+                  {/* Project Links */}
+                  <div className="flex justify-center gap-5 mt-2.5">
+                    <a href="https://braveai.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/braveAi" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                  </div>
+                </div>
+              </li>
             </motion.ul>
           </div>
           {/* Catagory 2 / React Projects */}
@@ -283,6 +311,20 @@ const AllProjects = () => {
                   </div>
                 </div>
               </li>
+              {/* Single Project */}
+              <li class="group relative overflow-hidden">
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
+                {/* Project Content */}
+                <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
+                  <h4 className='text-xl'>brave ai</h4>
+                  {/* Project Links */}
+                  <div className="flex justify-center gap-5 mt-2.5">
+                    <a href="https://braveai.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/braveAi" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                  </div>
+                </div>
+              </li>
             </motion.ul>
           </div>
           {/* Catagory 3 / Tailwind Projects */}
@@ -318,6 +360,20 @@ const AllProjects = () => {
                   <div className="flex justify-center gap-5 mt-2.5">
                     <a href="https://microsoft-tailwind.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
                     <a href="https://github.com/amdtaher/microsoft-clone-tailwind" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
+                  </div>
+                </div>
+              </li>
+              {/* Single Project */}
+              <li class="group relative overflow-hidden">
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
+                {/* Project Content */}
+                <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
+                  <h4 className='text-xl'>e-commerce card</h4>
+                  {/* Project Links */}
+                  <div className="flex justify-center gap-5 mt-2.5">
+                    <a href="https://fmentor-ecommerce-card.netlify.app/" target='_blank' className='hover:text-primary duration-200'><FaLink size={30}/></a>
+                    <a href="https://github.com/amdtaher/fMentor-Ecommerce-Card" target='_blank' className='hover:text-primary duration-200'><FaGithub size={30}/></a>
                   </div>
                 </div>
               </li>
