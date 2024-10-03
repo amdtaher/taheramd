@@ -14,6 +14,8 @@ import projectImg10 from '../../assets/img/projects/halim.webp'
 import projectImg11 from '../../assets/img/projects/chips.webp'
 import projectImg12 from '../../assets/img/projects/tracksite.webp'
 import projectImg13 from '../../assets/img/projects/getpay.webp'
+import projectImg14 from '../../assets/img/projects/ecommerceCard.webp'
+import projectImg15 from '../../assets/img/projects/braveai.webp'
 
 const AllProjects = () => {
   const [active, setactive] = useState('catagory1');
@@ -247,7 +249,7 @@ const AllProjects = () => {
               </li>
               {/* Single Project */}
               <li class="group relative overflow-hidden">
-                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg14} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
                 {/* Project Content */}
                 <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
@@ -261,7 +263,7 @@ const AllProjects = () => {
               </li>
               {/* Single Project */}
               <li class="group relative overflow-hidden">
-                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg15} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
                 <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
@@ -313,7 +315,7 @@ const AllProjects = () => {
               </li>
               {/* Single Project */}
               <li class="group relative overflow-hidden">
-                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg15} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
                 <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
@@ -365,7 +367,7 @@ const AllProjects = () => {
               </li>
               {/* Single Project */}
               <li class="group relative overflow-hidden">
-                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
+                <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg14} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
                 {/* Project Content */}
                 <div className="hidden group-hover:flex flex-col justify-center items-center text-center text-white absolute inset-0 before:content-[''] before:bg-dark before:rounded-md before:opacity-70 before:absolute before:inset-0 before:z-[-1] z-0 duration-300">
