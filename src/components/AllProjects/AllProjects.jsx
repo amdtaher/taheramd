@@ -66,7 +66,7 @@ const AllProjects = () => {
             whileInView='visible'
             className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row gap-5 text-center uppercase font-semibold'>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg1} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
@@ -80,7 +80,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg2} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
                 {/* Project Content */}
@@ -94,7 +94,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg11} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-lightDark text-white py-0.5 px-4'>Tailwind</span>
                 {/* Project Content */}
@@ -108,7 +108,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/*Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg3} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
@@ -122,7 +122,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg4} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -136,7 +136,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg5} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>sass</span>
                 {/* Project Content */}
@@ -150,7 +150,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg6} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -164,7 +164,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg7} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -178,7 +178,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg8} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -192,7 +192,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg9} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>sass</span>
                 {/* Project Content */}
@@ -206,7 +206,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg10} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -220,7 +220,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg12} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -234,7 +234,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg13} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -248,7 +248,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg14} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
                 {/* Project Content */}
@@ -262,7 +262,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg15} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
@@ -286,7 +286,7 @@ const AllProjects = () => {
             whileInView='visible'
             className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row gap-5 text-center uppercase font-semibold'>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg1} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
@@ -300,7 +300,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg3} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
@@ -314,7 +314,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg15} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>react</span>
                 {/* Project Content */}
@@ -338,7 +338,7 @@ const AllProjects = () => {
             whileInView='visible'
             className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row gap-5 text-center uppercase font-semibold'>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg11} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
                 {/* Project Content */}
@@ -366,7 +366,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg14} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>tailwind</span>
                 {/* Project Content */}
@@ -390,7 +390,7 @@ const AllProjects = () => {
             whileInView='visible'
             className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-flow-row gap-5 text-center uppercase font-semibold'>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg4} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -404,7 +404,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg5} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>sass</span>
                 {/* Project Content */}
@@ -418,7 +418,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg6} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -432,7 +432,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg7} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -446,7 +446,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg8} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
@@ -460,7 +460,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg9} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>sass</span>
                 {/* Project Content */}
@@ -474,7 +474,7 @@ const AllProjects = () => {
                 </div>
               </li>
               {/* Single Project */}
-              <li class="group relative overflow-hidden">
+              <li class="group relative border border-gray-300 rounded-lg overflow-hidden">
                 <img className='w-full rounded-md group-hover:scale-110 duration-300' src={projectImg10} alt="my-work"/>
                 <span className='absolute top-2.5 left-2.5 capitalize font-medium rounded-xl bg-dark text-white py-0.5 px-4'>core</span>
                 {/* Project Content */}
