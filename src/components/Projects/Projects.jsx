@@ -11,7 +11,7 @@ import projectImg4 from '../../assets/img/projects/portfolio.webp'
 const Projects = () => {
 const projects = [
   {
-    title: "FruitCart",
+    title: "FruitccCart",
     tech: "react",
     img: projectImg1,
     live: "https://fruitscart-react.netlify.app/",
@@ -19,7 +19,7 @@ const projects = [
     delay: 0.2,
   },
   {
-    title: "Microsoft Clone",
+    title: "Microsoft Cloneccc",
     tech: "tailwind",
     img: projectImg2,
     live: "https://microsoft-tailwind.netlify.app/",
