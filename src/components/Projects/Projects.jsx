@@ -3,35 +3,35 @@ import { NavLink } from 'react-router-dom';
 import { FaGithub, FaLink, FaCode  } from "react-icons/fa";
 import { motion } from "framer-motion"
 
-import projectImg1 from '../../assets/img/projects/fruitcart.webp'
-import projectImg2 from '../../assets/img/projects/microsoft-clone.webp'
-import projectImg3 from '../../assets/img/projects/chips.webp'
+import projectImg1 from '../../assets/img/projects/kuber.webp'
+import projectImg2 from '../../assets/img/projects/o2plant.webp'
+import projectImg3 from '../../assets/img/projects/furniture-world.webp'
 import projectImg4 from '../../assets/img/projects/portfolio.webp'
 
 const Projects = () => {
 const projects = [
   {
-    title: "FruitccCart",
+    title: "Kuber",
     tech: "react",
     img: projectImg1,
-    live: "https://fruitscart-react.netlify.app/",
-    github: "https://github.com/amdtaher/FruitCart-React",
+    live: "https://the-kuber.vercel.app/",
+    github: "https://github.com/amdtaher/the-kuber",
     delay: 0.2,
   },
   {
-    title: "Microsoft Cloneccc",
-    tech: "tailwind",
+    title: "o2plant",
+    tech: "next",
     img: projectImg2,
-    live: "https://microsoft-tailwind.netlify.app/",
-    github: "https://github.com/amdtaher/microsoft-clone-tailwind",
+    live: "https://o2plant.vercel.app/",
+    github: "https://github.com/amdtaher/o2plant",
     delay: 0.5,
   },
   {
-    title: "Chips",
-    tech: "tailwind",
+    title: "Furniture World",
+    tech: "react",
     img: projectImg3,
-    live: "https://chips-tailwind.netlify.app/",
-    github: "https://github.com/amdtaher/chips-tailwind",
+    live: "https://furnitureworld-project.netlify.app/",
+    github: "https://github.com/amdtaher/furniture-world",
     delay: 0.8,
   },
   {
