@@ -61,7 +61,7 @@ const item = {
     <>
       {/* Projects Section */}
       <section>
-        <div className="container mx-auto py-16 md:py-20" id="projects">
+        <div className="w-full mx-auto py-16 md:py-20" id="projects">
           <div className="grid grid-cols-12 grid-flow-row gap-5 px-5 sm:px-0">
 
             {/* Section Title */}
@@ -76,7 +76,7 @@ const item = {
 
             {/* Projects Grid */}
             <div className="col-span-12">
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 text-center uppercase font-semibold">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 text-center uppercase font-semibold">
 
                 {projects.map((project, index) => (
                   <motion.div
@@ -85,9 +85,8 @@ const item = {
                     initial="hidden"
                     whileInView="visible"
                     custom={project.delay}
-                    viewport={{ once: true }}
-                    className="group relative overflow-hidden"
-                  >
+                    viewport={{ once: true, amount: 0.3 }}
+                    className="group relative overflow-hidden">
                     <img
                       className="w-full rounded-md group-hover:scale-110 duration-300"
                       src={project.img}
