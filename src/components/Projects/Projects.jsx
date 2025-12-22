@@ -86,10 +86,10 @@ const item = {
                     whileInView="visible"
                     custom={project.delay}
                     viewport={{ once: true, amount: 0.3 }}
-                    className="group relative overflow-hidden rounded-md h-[370px]">
+                    className="group relative overflow-hidden rounded-md h-[370px duration-300 linear]">
                     <div className='overflow-hidden rounded-md'>
                       <img
-                        className="w-full group-hover:scale-110 duration-300"
+                        className="w-full group-hover:scale-105 duration-300 linear"
                         src={project.img}
                         alt={project.title}
                       />
