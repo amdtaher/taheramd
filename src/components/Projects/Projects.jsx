@@ -28,7 +28,7 @@ const projects = [
   },
   {
     title: "Furniture World",
-    tech: "react",
+    tech: "tailwind",
     img: projectImg3,
     live: "https://furnitureworld-project.netlify.app/",
     github: "https://github.com/amdtaher/furniture-world",
