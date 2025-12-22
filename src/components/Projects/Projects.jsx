@@ -61,7 +61,7 @@ const item = {
     <>
       {/* Projects Section */}
       <section>
-        <div className="w-full mx-auto py-16 md:py-20" id="projects">
+        <div className="container mx-auto py-16 md:py-20" id="projects">
           <div className="grid grid-cols-12 grid-flow-row gap-5 px-5 sm:px-0">
 
             {/* Section Title */}
