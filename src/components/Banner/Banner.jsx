@@ -40,7 +40,7 @@ const Banner = () => {
             <div className="col-span-12 md:col-span-7 lg:max-w-[40rem] flex flex-col gap-6 text-center md:text-left relative capitalize">
               <span className='text-xl text-subText font-medium relative before:content-[""] before:w-10 before:h-1 lg:before:bg-primary before:absolute before:top-3 before:-left-12'>hello, i'm a</span>
               <h2 className='font-bold text-3xl md:text-4xl lg:text-6xl'>Front-End <br /> Web Developer
-              <img src={wavingHand} alt="" style={{display: 'inline-block'}} className='w-12 lg:w-[70px] pl-1 animate-wave' />
+              <img src={wavingHand} alt="" style={{display: 'inline-block'}} className='w-12 ml-2.5 animate-wave' />
               </h2>
               <p className='text-lg text-subText font-medium'>my name is Taher Ahmed Tanveer. A passionate Freelance Front-end & React Developer lives in Sylhet, Bangladesh.
               <img src={pin} alt="" style={{display: 'inline-block'}} className='w-8 lg:w-[33px] pl-1' />
