@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Skills from '../Skills/Skills';
 import { motion } from "framer-motion"
 import { NavLink } from 'react-router-dom';
-import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
+import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaWhatsapp, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
 import aboutImg from '../../assets/img/avatar/about.webp';
 import resume from "../../assets/img/Taher-Ahmed.pdf"
 
@@ -97,6 +97,7 @@ const About = () => {
                       <a className='hover:scale-125 duration-300' href="https://github.com/amdtaher" target="_blank"><FaGithub size={35}/></a>
                       <a className='hover:scale-125 duration-300' href="https://web.facebook.com/profile.php?id=100015140653815" target="_blank"><FaFacebook size={35}/></a>
                       <a className='hover:scale-125 duration-300' href="https://www.linkedin.com/in/tanveer-ahmed7296/" target="_blank"><FaLinkedin size={35}/></a>
+                      <a className='hover:scale-125 duration-300' href="https://wa.me/8801647101652" target="_blank"><FaWhatsapp size={35}/></a>
                 </div>
                 {/* About Buttons */}
                 <div className="capitalize flex text-sm md:text-base gap-5 mt-5">
@@ -126,7 +127,7 @@ const About = () => {
                   <span className="text-6xl md:text-7xl lg:text-9xl md:top-[-40px] lg:top-[-66px] stroke">skills</span></h4>
                 </div>
                 {/* Content */}
-                <div className="flex flex-col gap-2.5    text-subText py-5">
+                <div className="flex flex-col gap-2.5  text-subText py-5">
                   <ul className='flex items-center text-center gap-2.5 text-lg md:text-xl font-semibold uppercase text-white'>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>html5</li>
                     <li className='bg-secondary cursor-pointer rounded-full duration-300 hover:bg-primary py-2.5 px-4'>css3</li>
