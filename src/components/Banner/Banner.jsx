@@ -46,8 +46,8 @@ const Banner = () => {
               <img src={pin} alt="" style={{display: 'inline-block'}} className='w-8 lg:w-[33px] pl-1' />
               </p>
               {/* CTA */}
-              <div className="mt-8">
-                <a href="#projects" className="inline-flex items-center justify-center px-8 py-3 text-dark bg-light rounded-full font-semibold transition hover:text-light hover:bg-dark hover:scale-105 hover:shadow-lg duration-300 linear">
+              <div className="mt-5">
+                <a href="#projects" className="inline-flex items-center justify-center px-8 py-3 text-dark bg-light rounded-full font-semibold transition duration-300 linear border border-dark hover:text-light hover:bg-dark hover:scale-105 hover:shadow-lg">
                   View My Work
                 </a>
               </div>
