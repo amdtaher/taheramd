@@ -40,15 +40,15 @@ const Banner = () => {
             <div className="col-span-12 md:col-span-7 lg:max-w-[40rem] flex flex-col gap-6 text-center md:text-left relative capitalize">
               <span className='text-xl text-subText font-medium relative before:content-[""] before:w-10 before:h-1 lg:before:bg-primary before:absolute before:top-3 before:-left-12'>hello, i'm a</span>
               <h2 className='font-bold text-3xl md:text-4xl lg:text-6xl'>Front-End <br /> Web Developer
-              <img src={wavingHand} alt="" style={{display: 'inline-block'}} className='w-12 lg:w-[70px] pl-1 animate-wave' />
+              < src={wavingHand} alt="" style={{display: 'inline-block'}} className='w-12 lg:w-[70px] pl-1 animate-wave' />
               </h2>
               <p className='text-lg text-subText font-medium'>my name is Taher Ahmed Tanveer. A passionate Freelance Front-end & React Developer lives in Sylhet, Bangladesh.
               <img src={pin} alt="" style={{display: 'inline-block'}} className='w-8 lg:w-[33px] pl-1' />
               </p>
             </div>
             {/* Banner Image */}
-            <div className="hidden md:block col-span-12 md:col-span-5 max-w-[350px] lg:max-w-[500px] border-2 border-secondary rounded-full p-7 mx-auto order-first md:order-none mb-10 md:mb-0">
-            <img className='w-auto mx-auto bg-subText rounded-full' src={img} alt="picture_of_mine" />
+            <div className="hidden md:block w-[400px] h-[400px] overflow-hidden col-span-12 md:col-span-5 border-2 border-secondary rounded-full p-7 mx-auto order-first md:order-none mb-10 md:mb-0">
+            <img className='w-full h-full object-cover object-top mx-auto bg-subText rounded-full' src={img} alt="picture_of_mine" />
             </div>
             {/* Down to About Section */}
             <Link  
