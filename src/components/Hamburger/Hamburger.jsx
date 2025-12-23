@@ -44,7 +44,6 @@ const SideBar = () => {
     },
     bmCross: {
       background: '#ffffff',
-      height: '4px',
     },
     bmMenuWrap: {
       position: 'fixed',
