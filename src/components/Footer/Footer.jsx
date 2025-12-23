@@ -42,7 +42,7 @@ const Footer = () => {
                   <a className='hover:scale-125 duration-200' href="https://web.facebook.com/profile.php?id=100015140653815" target="_blank"><FaFacebook size={25}/></a>
                   <a className='hover:scale-125 duration-200' href="https://twitter.com/DzSpyder" target="_blank"><FaTwitter size={25}/></a>
                   <a className='hover:scale-125 duration-200' href="https://www.linkedin.com/in/tanveer-ahmed7296/" target="_blank"><FaLinkedin size={25}/></a>
-                  <a className='hover:scale-125 duration-300' href="https://wa.me/8801647101652" target="_blank"><FaWhatsapp size={35}/></a>
+                  <a className='hover:scale-125 duration-300' href="https://wa.me/8801647101652" target="_blank"><FaWhatsapp size={25}/></a>
               </li>
           </ul>
         </div>
