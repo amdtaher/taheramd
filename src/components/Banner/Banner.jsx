@@ -47,7 +47,7 @@ const Banner = () => {
               </p>
             </div>
             {/* Banner Image */}
-            <div className="hidden md:block w-[400px] h-[400px] overflow-hidden col-span-12 md:col-span-5 border-2 border-secondary rounded-full p-7 mx-auto order-first md:order-none mb-10 md:mb-0">
+            <div className="hidden md:block w-[450px] h-[450px] overflow-hidden col-span-12 md:col-span-5 border-2 border-secondary rounded-full p-7 mx-auto order-first md:order-none mb-10 md:mb-0">
             <img className='w-full h-full object-cover object-top mx-auto bg-subText rounded-full' src={img} alt="picture_of_mine" />
             </div>
             {/* Down to About Section */}
