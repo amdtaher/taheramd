@@ -39,8 +39,8 @@ const SideBar = () => {
       background: '#a90000'
     },
     bmCrossButton: {
-      height: '36px',
-      width: '36px'
+      height: '50px',
+      width: '50px'
     },
     bmCross: {
       background: '#ffffff',
