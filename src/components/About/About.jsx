@@ -58,7 +58,7 @@ const About = () => {
         <div className="container mx-auto py-16 md:pb-36" id='about'>
           <div className="grid grid-cols-12 grid-flow-row gap-5 relative px-5 sm:px-0">
             {/* About Image */}
-            <div className="max-w-[500px] h-[400px] md:h-[600px] overflow-hidden col-span-12 md:col-span-6 flex items-center mx-auto">
+            <div className="w-[330px] md:w-[500px] h-[400px] md:h-[600px] overflow-hidden col-span-12 md:col-span-6 flex items-center mx-auto">
               <img className='w-full h-full object-cover object-top mx-auto bg-subText image-radius md:rounded-xl' src={aboutImg} alt="picture_of_mine" />
             </div>
             {/* About Content */}
