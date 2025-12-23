@@ -29,7 +29,7 @@ const SideBar = () => {
       position: 'fixed',
       width: '36px',
       height: '30px',
-      left: '36px',
+      right: '36px',
       top: '36px'
     },
     bmBurgerBars: {
@@ -47,7 +47,9 @@ const SideBar = () => {
     },
     bmMenuWrap: {
       position: 'fixed',
-      height: '100%'
+      height: '100%',
+      top: '0',
+      right: '0',
     },
     bmMenu: {
       background: '#2a2a2a',
