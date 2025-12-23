@@ -29,7 +29,7 @@ const SideBar = () => {
       position: 'fixed',
       width: '36px',
       height: '30px',
-      right: '36px',
+      left: '36px',
       top: '36px'
     },
     bmBurgerBars: {
@@ -39,11 +39,12 @@ const SideBar = () => {
       background: '#a90000'
     },
     bmCrossButton: {
-      height: '24px',
-      width: '24px'
+      height: '36px',
+      width: '36px'
     },
     bmCross: {
-      background: '#bdc3c7'
+      background: '#ffffff',
+      height: '4px',
     },
     bmMenuWrap: {
       position: 'fixed',
@@ -80,7 +81,7 @@ const SideBar = () => {
   return (
     <>
       <div className='container p-0'>   
-        <Menu styles={styles} className="text-lg font-semibold">
+        <Menu right styles={styles} className="text-lg font-semibold">
           <NavLink to='/' className="hover:bg-primary hover:rounded-sm" activeClassName="bmItemActive">Home</NavLink>
           <NavLink to='/projects' className="hover:bg-primary hover:rounded-sm">Projects</NavLink>
           <NavLink to='/contact' className="hover:bg-primary hover:rounded-sm">Contact</NavLink>
