@@ -3,7 +3,7 @@ import Skills from '../Skills/Skills';
 import { motion } from "framer-motion"
 import { NavLink } from 'react-router-dom';
 import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
-import aboutImage3 from '../../assets/img/avatar/Taher-img3.webp';
+import aboutImg from '../../assets/img/avatar/about.webp';
 import resume from "../../assets/img/Taher-Ahmed.pdf"
 
 const About = () => {
@@ -58,8 +58,8 @@ const About = () => {
         <div className="container mx-auto py-16 md:pb-36" id='about'>
           <div className="grid grid-cols-12 grid-flow-row gap-5 relative px-5 sm:px-0">
             {/* About Image */}
-            <div className="col-span-12 md:col-span-6 flex items-center">
-              <img className='w-auto lg:w-[600px] mx-auto bg-subText image-radius md:rounded-xl' src={aboutImage3} alt="picture_of_mine" />
+            <div className="w-[600px] h-[600px] overflow-hidden col-span-12 md:col-span-6 flex items-center">
+              <img className='w-full h-full object-cover object-top mx-auto bg-subText image-radius md:rounded-xl' src={aboutImg} alt="picture_of_mine" />
             </div>
             {/* About Content */}
             <div className="col-span-12 md:col-span-6 flex flex-col justify-start">
