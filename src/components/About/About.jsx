@@ -100,7 +100,7 @@ const About = () => {
                       <a className='hover:scale-125 duration-300' href="https://wa.me/8801647101652" target="_blank"><FaWhatsapp size={35}/></a>
                 </div>
                 {/* About Buttons */}
-                <div className="capitalize flex text-sm md:text-base gap-5 mt-5">
+                <div className="capitalize flex text-sm md:text-base gap-2.5 md:gap-5 mt-5">
                   <NavLink to='/contact' //it catches id
                   activeClass="btn group"
                   smooth={true} 
