@@ -47,7 +47,7 @@ const Banner = () => {
               </p>
               {/* CTA */}
               <div className="mt-8">
-                <a href="#projects" className="inline-flex items-center justify-center px-8 py-3 text-white bg-primary rounded-full font-semibold transition hover:scale-105 hover:shadow-lg">
+                <a href="#projects" className="inline-flex items-center justify-center px-8 py-3 text-dark bg-light rounded-full font-semibold transition hover:text-light hover:bg-dark hover:scale-105 hover:shadow-lg duration-300 linear">
                   View My Work
                 </a>
               </div>
