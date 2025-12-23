@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-scroll';
 import { FaChevronDown } from "react-icons/fa";
 import { motion } from "framer-motion"
-import img from '../../assets/img/avatar/Taher-img0.webp';
+import img from '../../assets/img/avatar/hero.webp';
 import wavingHand from '../../assets/img/icons/waving-hand.webp';
 import pin from '../../assets/img/icons/pin.webp';
 
