@@ -45,6 +45,12 @@ const Banner = () => {
               <p className='text-lg text-subText font-medium'>my name is Taher Ahmed Tanveer. A passionate Freelance Front-end & React Developer lives in Sylhet, Bangladesh.
               <img src={pin} alt="" style={{display: 'inline-block'}} className='w-8 lg:w-[33px] pl-1' />
               </p>
+              {/* CTA */}
+              <div className="mt-8">
+                <a href="#projects" className="inline-flex items-center justify-center px-8 py-3 text-white bg-primary rounded-full font-semibold transition hover:scale-105 hover:shadow-lg">
+                  View My Work
+                </a>
+              </div>
             </div>
             {/* Banner Image */}
             <div className="hidden md:block w-[450px] h-[450px] overflow-hidden col-span-12 md:col-span-5 border-2 border-secondary rounded-full p-7 mx-auto order-first md:order-none mb-10 md:mb-0">
