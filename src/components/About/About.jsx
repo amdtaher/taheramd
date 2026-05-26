@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Skills from '../Skills/Skills';
 import { motion } from "framer-motion"
 import { NavLink } from 'react-router-dom';
-import { FaPaperPlane, FaFacebook, FaGithub, FaLinkedin, FaWhatsapp, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
+import { FaPaperPlane, FaFacebook,FaInstagram, FaGithub, FaLinkedin, FaWhatsapp, FaDownload, FaCaretUp, FaCaretDown } from "react-icons/fa";
 import aboutImg from '../../assets/img/avatar/about.webp';
 import resume from "../../assets/img/Taher-Ahmed.pdf"
 
@@ -95,8 +95,9 @@ const About = () => {
                 {/* Social Buttons */}
                 <div className="flex justify-start gap-3 py-3">
                       <a className='hover:scale-125 duration-300' href="https://github.com/amdtaher" target="_blank"><FaGithub size={35}/></a>
-                      <a className='hover:scale-125 duration-300' href="https://web.facebook.com/profile.php?id=100015140653815" target="_blank"><FaFacebook size={35}/></a>
-                      <a className='hover:scale-125 duration-300' href="https://www.linkedin.com/in/tanveer-ahmed7296/" target="_blank"><FaLinkedin size={35}/></a>
+                      <a className='hover:scale-125 duration-300' href="https://www.linkedin.com/in/taher-ahmed7296/" target="_blank"><FaLinkedin size={35}/></a>
+                      <a className='hover:scale-125 duration-300' href="https://www.facebook.com/taherahmed7296/" target="_blank"><FaFacebook size={35}/></a>
+                      <a className='hover:scale-125 duration-300' href="https://www.instagram.com/tanveer_taher/" target="_blank"><FaInstagram size={35}/></a>
                       <a className='hover:scale-125 duration-300' href="https://wa.me/8801647101652" target="_blank"><FaWhatsapp size={35}/></a>
                 </div>
                 {/* About Buttons */}
